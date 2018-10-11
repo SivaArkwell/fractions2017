@@ -1119,3 +1119,8 @@ span.frac {
 .roman-list{
     list-style-type:lower-roman;
 }
+
+/*temporary text*/
+.vertical-text{
+    display:none !important;
+}
