@@ -322,6 +322,42 @@ border: 4px solid #FF871F;
     top: 260px;
     left: 219px;
 }
+
+.classroom-map{
+  width: 100%;
+  text-align:center;
+}
+
+.classroom-map td{
+  border: 1px solid;
+}
+.classroom-map ul{
+  text-align:left !important;
+}
+.classroom-map .unit a{
+  color:#82BC00 !important;
+  font-weight:600;
+}
+.classroom-map .compare a{
+  color:#00C1DE;
+  font-weight:600;
+}
+.classroom-map .ops a{
+  color:#FF6B00;
+  font-weight:600;
+}
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.rotate {
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
 @media screen and (min-width:1261px) and (max-width: 1339px) {
     .diamond {
         width: 180px;
@@ -1226,5 +1262,3 @@ border: 4px solid #FF871F;
               }
 
               /* Mike CSS changes */
-
-             
