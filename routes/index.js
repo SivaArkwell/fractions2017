@@ -46,6 +46,11 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { myName: "Contact", title: "Contact" });
 });
 
+// October 2018 Mike Changes:
+router.get('/FractionalRationale', function(req, res, next) {
+  res.render('fractionalrationale', {myName: "FractionalRationale", title:"Fractional Rationale"});
+});
+
 
 
 module.exports = router;

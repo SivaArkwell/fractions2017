@@ -1111,3 +1111,78 @@ span.frac {
 .curr-row h2{
     line-height:1.3em;
 }
+
+/* Mike 2018 Changes */
+
+h1#title{
+    text-align: left;
+}
+
+h3#season{
+    margin-left:80%;
+    padding-bottom:10%;
+}
+
+p#page1, p#page2, p#page4, p#page5, p#page6, p#page7, p#page8, p#page9, p#page10{
+    text-align: center;
+    margin-top:50px;
+}
+
+p#page3{
+    text-align: right;
+    color:#3865AC;
+    margin-top:-30px;
+}
+
+img#talk{
+    float:left;
+    padding:10px;
+}
+
+#Intro h2{
+    font-weight: bolder;
+}
+
+#tableofcontents{
+    background-color:#15B59F;
+    color:white;
+    padding:20px;
+}
+
+#collablearning h2{
+    text-align: center;
+}
+
+img#W{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img#paper{
+    width:100%;
+    margin-left:16px;
+}
+
+#page3bot{
+    background-color:#F17E37;
+    color:white;
+}
+
+#page3bot p{
+    padding:20px;
+}
+
+#collablearning{
+    background-color:#3865AC;
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#greenlist, #greenarea2{
+    background-color: #15B59F;
+    color:white;
+    padding:20px;
+}
