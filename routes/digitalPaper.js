@@ -32,6 +32,10 @@ router.get('/fracRepCompOrder', function(req, res, next) {
   res.render('fracRepCompOrder', {title:"Fractions Representing Comparing Ordering"});
 });
 
+router.get('/instruction', function(req, res, next) {
+  res.render('instruction', {title:"Instruction"});
+});
+
 router.get('/instrDec', function(req, res, next) {
   res.render('instrDec', {title:"Instructional Decisions"});
 });
