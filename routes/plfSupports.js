@@ -17,10 +17,4 @@ router.get('/postcard', function(req, res, next) {
   res.render('postcard', {title:"Postcard"});
 });
 
-router.get('/proLearnIntroFrac', function(req, res, next) {
-  res.render('proLearnIntroFrac', {title:"Professional Introduction to Learning Fractions"});
-});
-
-
-
 module.exports = router;
