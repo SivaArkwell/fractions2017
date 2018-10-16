@@ -1112,6 +1112,7 @@ span.frac {
     line-height:1.3em;
 }
 
+
 /* Mike 2018 Changes */
 
 h1#title{
@@ -1521,5 +1522,14 @@ p#authors{
     padding-bottom:100px;
 }
 
+/*rational document styling*/
+.opening-page{
+    padding:150px 200px 250px 200px;
+}
+.roman-list{
+    list-style-type:lower-roman;
+}
 
-
+/*temporary text*/
+.vertical-text{
+}
