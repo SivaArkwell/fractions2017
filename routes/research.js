@@ -15,6 +15,7 @@ router.get('/digitalPaper', function(req, res, next) {
   });
 });
 
+
 router.get('/fracPathOverview', function(req, res, next) {
   res.render('fracPathOverview', {
     title: "Fractions Learning Pathways Overview"
