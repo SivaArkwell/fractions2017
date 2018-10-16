@@ -10,11 +10,15 @@ var router = express.Router();
 // GET plf support pages
 
 router.get('/adobePayAttention', function(req, res, next) {
-  res.render('adobePayAttention', {title:"Adobe Paying Attention Series"});
+  res.render('adobePayAttention', {
+    title: "Adobe Paying Attention Series"
+  });
 });
 
 router.get('/postcard', function(req, res, next) {
-  res.render('postcard', {title:"Postcard"});
+  res.render('postcard', {
+    title: "Postcard"
+  });
 });
 
 module.exports = router;
