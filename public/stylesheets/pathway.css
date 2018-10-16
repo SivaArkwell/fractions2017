@@ -354,11 +354,21 @@ border: 4px solid #FF871F;
 .vertical-text {
 
 }
-
 .rotate {
   -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
   transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+.digitalTable table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width:1261px) and (max-width: 1339px) {
