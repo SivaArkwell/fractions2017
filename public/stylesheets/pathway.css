@@ -351,6 +351,46 @@ border: 4px solid #FF871F;
   color:#633B86 !important;
   font-weight:600;
 }
+
+/*BUTTON STYLING FOR HOMEPAGE*/
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+button {
+  background: none;
+  border: 3px solid #68c73d;
+  color: #4cd0e7;
+  border-radius: 10px;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 0.5em 2em;
+  position: relative;
+  text-transform: uppercase;
+}
+.flp-btn {
+  overflow: hidden;
+}
+.flp-btn::after {
+  background-color: #f00;
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+.flp-btn:hover:after {
+  height: 100%;
+  width: 135%;
+}
+
 .vertical-text {
 
 }
