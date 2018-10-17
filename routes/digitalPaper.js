@@ -20,8 +20,8 @@ router.get('/connAcrossStrands', function(req, res, next) {
   });
 });
 
-router.get('/curConn4_8', function(req, res, next) {
-  res.render('curConn4_8', {
+router.get('/currConn4_8', function(req, res, next) {
+  res.render('currConn4_8', {
     title: "Curriculum Connections (Gr 4-8)"
   });
 });
@@ -105,9 +105,21 @@ router.get('/researchBackground', function(req, res, next) {
   });
 });
 
+router.get('/resourceList', function(req, res, next) {
+  res.render('resourceList', {
+    title: "Resource List"
+  });
+});
+
 router.get('/resources', function(req, res, next) {
   res.render('resources', {
     title: "Resources"
+  });
+});
+
+router.get('/resultsofActionResearchOnFractions', function(req, res, next) {
+  res.render('resultsofActionResearchOnFractions', {
+    title: "Results of Collaborative Action Research on Fractions"
   });
 });
 
