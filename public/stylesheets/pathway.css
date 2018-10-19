@@ -351,6 +351,35 @@ border: 4px solid #FF871F;
   color:#633B86 !important;
   font-weight:600;
 }
+
+/*BUTTON STYLING FOR HOMEPAGE*/
+.flp-btn{
+  max-width:310px;
+  display:block !important;
+  margin:0 auto !important;
+}
+.flp-btn a {
+  text-align:center;
+  background: none;
+  border: 3px solid #68c73d;
+  color: #00c3e0;
+  border-radius: 10px;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.flp-btn a:hover{
+  border-color: #633B86;
+  color: #ff8540;
+}
+
 .vertical-text {
 
 }

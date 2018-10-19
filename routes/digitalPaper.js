@@ -117,8 +117,8 @@ router.get('/resources', function(req, res, next) {
   });
 });
 
-router.get('/resultsofActionResearchOnFractions', function(req, res, next) {
-  res.render('resultsofActionResearchOnFractions', {
+router.get('/resultsOfActionResearch', function(req, res, next) {
+  res.render('resultsOfActionResearch', {
     title: "Results of Collaborative Action Research on Fractions"
   });
 });
@@ -147,5 +147,54 @@ router.get('/waysWeUseFrac', function(req, res, next) {
   });
 });
 
+// LESSONS
+router.get('/compOrder', function(req, res, next) {
+  res.render('compOrder', {
+    title: "Comparing and Ordering Fractions (Gr 6)"
+  });
+});
+
+router.get('/equivFrac', function(req, res, next) {
+  res.render('equivFrac', {
+    title: "Equivalence of Fractions (Jr - Int)"
+  });
+});
+
+router.get('/fracRep', function(req, res, next) {
+  res.render('fracRep', {
+    title: "Fractions Representation (Jr-Int)"
+  });
+});
+
+router.get('/impSetRep', function(req, res, next) {
+  res.render('impSetRep', {
+    title: "Improper Fractions with Set Representations (Gr 6)"
+  });
+});
+
+
+router.get('/orderNumLine', function(req, res, next) {
+  res.render('orderNumLine', {
+    title: "Ordering on a Number Line (Gr 7)"
+  });
+});
+
+router.get('/rep', function(req, res, next) {
+  res.render('rep', {
+    title: "Representations (Jr)"
+  });
+});
+
+router.get('/setAreaMod', function(req, res, next) {
+  res.render('setAreaMod', {
+    title: "Fractions Representations with Set Area Models (Gr 6)"
+  });
+});
+
+router.get('/setRep', function(req, res, next) {
+  res.render('setRep', {
+    title: "Set Representations (Jr)"
+  });
+});
 
 module.exports = router;
