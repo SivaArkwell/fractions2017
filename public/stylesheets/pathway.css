@@ -372,6 +372,7 @@ border: 4px solid #FF871F;
 /*BUTTON STYLING FOR HOMEPAGE*/
 .flp-btn{
   max-width:310px;
+  float:right;
   display:block !important;
   margin:0 auto !important;
 }
@@ -385,7 +386,7 @@ border: 4px solid #FF871F;
   font-size: 1.6em;
   font-weight: bold;
   margin: 1em auto;
-  padding: 0.5em 2em;
+  padding: 5px 10px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
