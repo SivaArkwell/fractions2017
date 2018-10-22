@@ -220,12 +220,6 @@ router.get('/relayRace', function(req, res, next) {
   });
 });
 
-router.get('/shadedRectangle', function(req, res, next) {
-  res.render('shadedRectangle', {
-    title: "Unit E The Shaded Rectangle"
-  })
-})
-
 router.get('/shapeSets', function(req, res, next) {
   res.render('shapeSets', {
     title: "Unit F Fraction Shape Sets"
