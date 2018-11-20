@@ -776,6 +776,13 @@ table th {
 .key-title .key-bl {
     background: #0078a4;
 }
+.mrgnbtm0 {
+    margin-bottom:0px !important;
+}
+.fracList li{
+    margin-bottom:0px !important;
+    margin-left:25px;
+}
 .key-title .key-pink {
     background: #f31ba5;
     margin-top: 30px;
@@ -1016,6 +1023,10 @@ span.frac {
     padding-top: 25px;
 }
 
+.padding3040 {
+    padding:30px 40px;
+}
+
 /* Key Questions Title indentation */
 .title-indentation {
     margin-left:55px;
@@ -1065,8 +1076,9 @@ span.frac {
 .margin-bottom-research {
     margin-bottom: 20px;
 }
-.title-reserach {
-    font-size: 18px;
+.title-research {
+    font-size: 16px;
+    margin-bottom:5px !important;
 }
 .container-digital-paper {
     width: 90%;
@@ -1112,6 +1124,15 @@ span.frac {
     line-height:1.3em;
 }
 
+.fracRationalePDF {
+    background: #fff;
+    box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    position: relative;
+    margin-bottom: 25px;
+}
+
 
 /* Mike 2018 Changes */
 
@@ -1152,14 +1173,20 @@ img#talk{
 }
 
 #Intro h2{
-    font-weight: bolder;
+    font-size: 2em !important;
+    font-weight: 900 !important;
+    font-family:arial black;
 }
 
 #tableofcontents{
     background-color:#15B59F;
     color:white;
-    padding:40px;
+    padding-left:55px;
+    padding-right:55px;
+    padding-top:30px;
+    padding-bottom:10px;
 }
+
 
 #collablearning h2{
     text-align: center;
@@ -1189,17 +1216,13 @@ img#paper{
 #collablearning{
     background-color:#3865AC;
     color:white;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-#collablearning p{
-    padding:30px;
+    padding-left:55px;
+    padding-right:55px;
 }
 
 #collablearning h3{
     padding-top:30px;
-    padding-left:30px;
+    margin-bottom:0px;
 }
 
 img#paper{
@@ -1474,7 +1497,8 @@ h4#attentionmathedugains{
 
 #ontariomath h2, #teachinquiry h2, #schoolboard h2, #effectivelearning h2, #personallearn h2, #whyfrac h2, #Intro h2{
     color: #15B59F !important; /* overwriting previous CSS */
-    font-weight: bold !important;
+    font-family:arial black;
+    font-size:2em;
 }
 
 #mathleadership h3, #grouplearning h3,h3#collabtextblue{
@@ -1508,14 +1532,16 @@ p#edugainsbot{
 
 #tableofcontents h2{
     color:#ffffff !important;
-    font-size: 2.4em !important;
-    font-weight: bold !important;
+    font-size: 2em !important;
+    font-family:arial black;
 }
 
 h1#title{
     color:orange !important;
     font-weight: bolder !important;
     font-size: 3.7em !important;
+    margin:0px;
+    font-family:arial black;
 }
 
 p#authors{
