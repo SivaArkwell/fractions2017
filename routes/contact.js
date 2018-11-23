@@ -13,6 +13,7 @@ var mailOptions;
 router.post('/contact-me', function(req, res, next) {
   mailOptions = {
     // put gmail here
+    //from: 'youremail@gmail.com',
     to: 'admin@gmail.com',
     subject: req.body.subject,
     html: "Hello, you receive message from " + req.body.email + ".<br/>Message:<br/>" + req.body.message
