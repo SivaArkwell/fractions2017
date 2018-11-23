@@ -16,7 +16,8 @@
   <section class="row">
     <div data-ng-controller="ContactFormController as cf">
       <!-- <form name="contactForm" data-ng-submit="cf.sendMail()" action="" method="post" enctype="multipart/form-data" > -->
-      <form name="contactForm" action="/contact/contact-me" method="post" id="contactForm">
+      <!-- <form name="contactForm" action="/contact/contact-me" method="post" id="contactForm"> -->
+        <form method="post" action="send_mail.php" name="contactForm" id="contactForm">
         <fieldset class="well well-large text-left">
           <div class="input-group">
             <div class="row">

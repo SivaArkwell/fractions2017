@@ -31,6 +31,20 @@ router.get('/contact', function(req, res, next) {
   });
 });
 
+router.get('/thank_you', function(req, res, next) {
+  res.render('thank_you', {
+    myName: "Thank You",
+    title: "Thank You"
+  });
+});
+
+router.get('/error_message', function(req, res, next) {
+  res.render('error_message', {
+    myName: "Error Message",
+    title: "Error Message"
+  });
+});
+
 router.get('/planningSupports', function(req, res, next) {
   res.render('planningSupports', {
     myName: "Planning Supports",
