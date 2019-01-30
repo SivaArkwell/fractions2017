@@ -1034,3 +1034,7 @@ table td {
 .learningPathWays .gen-pdf {
 	display: none;
 }
+figcaption .gen-pdf{
+	margin: 1% 0;
+	float: right;
+}
