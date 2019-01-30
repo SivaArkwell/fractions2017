@@ -1584,3 +1584,14 @@ p#authors{
 .learningPathWays .gen-pdf {
 	display: none;
 }
+
+/*fixing box links*/
+.tab-content a>.thumbnail p{
+    color:black !important;
+}
+.thumbnail{
+    transition:0.3s;
+}
+.thumbnail:hover{
+    opacity:0.8;
+}
