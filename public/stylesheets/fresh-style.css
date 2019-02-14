@@ -1600,3 +1600,11 @@ figcaption .gen-pdf{
 	margin: 1% 0;
 	float: right;
 }
+.breadcrumb
+{
+	display: none;
+}
+.purple-equation
+{
+	white-space: nowrap;
+}
