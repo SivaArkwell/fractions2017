@@ -895,7 +895,7 @@ span.frac {
     display: block;
     font: inherit;
     padding: 0 0.3em;
-	font-size: 0.9em; 
+	font-size: 0.9em;
   }
   span.frac > sup {border-bottom: 0.08em solid; top: -.1em;}
   span.frac > sub {bottom: 0.15em;}
@@ -1594,4 +1594,17 @@ p#authors{
 }
 .thumbnail:hover{
     opacity:0.8;
+}
+
+figcaption .gen-pdf{
+	margin: 1% 0;
+	float: right;
+}
+.breadcrumb
+{
+	display: none;
+}
+.purple-equation
+{
+	white-space: nowrap;
 }
