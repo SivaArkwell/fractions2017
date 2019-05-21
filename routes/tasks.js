@@ -624,6 +624,30 @@ router.get('/bananaBreadBakeOff', function(req, res, next) {
   });
 });
 
+router.get('/cakeRelay', function(req, res, next) {
+  res.render('cakeRelay', {
+    title: "OP N Cake Relay"
+  });
+});
+
+router.get('/fractionDecompositionandDivision', function(req, res, next) {
+  res.render('fractionDecompositionandDivision', {
+    title: "OP K Fraction Decomposition and Division"
+  });
+});
+
+router.get('/iWonder', function(req, res, next) {
+  res.render('iWonder', {
+    title: "I Wonder"
+  });
+});
+
+router.get('/sugarCookies', function(req, res, next) {
+  res.render('sugarCookies', {
+    title: "OP I Sugar Cookies"
+  });
+});
+
 router.get('/chrisIceCreamCarton', function(req, res, next) {
   res.render('chrisIceCreamCarton', {
     title: "OP L Chris' Ice Cream Carton"
