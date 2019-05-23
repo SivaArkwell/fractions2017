@@ -630,6 +630,12 @@ router.get('/cakeRelay', function(req, res, next) {
   });
 });
 
+router.get('/slopeofaline', function(req, res, next) {
+  res.render('slopeofaline', {
+    title: "Slope of a Line"
+  });
+});
+
 router.get('/fractionDecompositionandDivision', function(req, res, next) {
   res.render('fractionDecompositionandDivision', {
     title: "OP K Fraction Decomposition and Division"
@@ -1064,6 +1070,24 @@ router.get('/grade7-8PlanningMap', function(req, res, next) {
 router.get('/grade9AppliedPlanningMap', function(req, res, next) {
   res.render('grade9AppliedPlanningMap', {
     title: "Grade 9 Applied Planning Map"
+  })
+})
+
+router.get('/compFractions', function(req, res, next) {
+  res.render('compFractions', {
+    title: "Comparing Fractions"
+  })
+})
+
+router.get('/waysWeUseFractions', function(req, res, next) {
+  res.render('waysWeUseFractions', {
+    title: "Ways We Use Fractions"
+  })
+})
+
+router.get('/unitFrac', function(req, res, next) {
+  res.render('unitFrac', {
+    title: "Unit Fractions"
   })
 })
 
