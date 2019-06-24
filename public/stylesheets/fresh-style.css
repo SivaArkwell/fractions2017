@@ -310,6 +310,15 @@ footer p{
 .blue {
     background-color: #00C1DE;
 }
+
+.darkblue {
+    background-color: #DDE6F2!important;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #748AA3;
+    padding: 10px;
+}
+
 .orange {
     background-color: #FF6B00;
 }

@@ -1085,10 +1085,30 @@ router.get('/waysWeUseFractions', function(req, res, next) {
   })
 })
 
-router.get('/unitFrac', function(req, res, next) {
-  res.render('unitFrac', {
-    title: "Unit Fractions"
+router.get('/mapleSyrup', function(req, res, next) {
+  res.render('mapleSyrup', {
+    title: "Maple Syrup"
   })
 })
 
+router.get('/addSubFrac', function(req, res, next) {
+  res.render('addSubFrac', {
+    title: "Adding and Subtracting Fractions"
+  })
+})
+
+router.get('/multDivFrac', function(req, res, next) {
+  res.render('multDivFrac', {
+    title: "Multiplying and Dividing Fractions"
+  })
+})
+
+router.get('/paintingNhlArenas', function(req, res, next) {
+  res.render('paintingNhlArenas', {
+    title: "Painting NHL Arenas"
+  })
+})
+
+
+https://docs.google.com/spreadsheets/d/1H8x5J7kBzsdmtFxRWfzTA0NqWTAfXV0d03pUdTcUAMU/edit?usp=drivesdk
 module.exports = router;
