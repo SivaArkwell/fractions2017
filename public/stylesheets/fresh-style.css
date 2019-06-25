@@ -161,6 +161,9 @@ a:hover{
     color: #5a317a;
 }
 
+.centered-text {
+    text-align: center;
+}
 /*default styling*/
 .linkBubble {
     margin: 20px auto;

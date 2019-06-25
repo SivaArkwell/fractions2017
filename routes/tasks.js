@@ -1103,6 +1103,19 @@ router.get('/multDivFrac', function(req, res, next) {
   })
 })
 
+router.get('/fracProbJunior', function(req, res, next) {
+  res.render('fracProbJunior', {
+    title: "Fractions and Probability in Junior Grades"
+  })
+})
+
+router.get('/fracSecondary', function(req, res, next) {
+  res.render('fracSecondary', {
+    title: "Fractions in Secondary School"
+  })
+})
+
+
 router.get('/paintingNhlArenas', function(req, res, next) {
   res.render('paintingNhlArenas', {
     title: "Painting NHL Arenas"
