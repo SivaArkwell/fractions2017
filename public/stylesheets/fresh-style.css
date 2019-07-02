@@ -250,6 +250,12 @@ footer p{
     margin-right: auto;
     margin-left: auto;
 }
+
+.img-center {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
 .thumbnail {
     display: block;
     width: 100%;
@@ -314,6 +320,10 @@ footer p{
     background-color: #00C1DE;
 }
 
+.text-blue {
+    color: #00C1DE !important;
+}
+
 .darkblue {
     background-color: #DDE6F2!important;
     border-style: solid;
@@ -324,6 +334,20 @@ footer p{
 
 .orange {
     background-color: #FF6B00;
+}
+
+.green-background {
+    background-color: #c7e3c5;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
+}
+
+.grey-background {
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #A9A9A9;
 }
 
 /*style video*/
@@ -1041,6 +1065,11 @@ span.frac {
 /* Key Questions Title indentation */
 .title-indentation {
     margin-left:55px;
+}
+
+/* No border table*/
+.table-no-border {
+    border: none !important;
 }
 
 /* Curriculum Connections Table */

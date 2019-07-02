@@ -1116,6 +1116,19 @@ router.get('/fracSecondary', function(req, res, next) {
 })
 
 
+router.get('/arraysNumberLine', function(req, res, next) {
+  res.render('arraysNumberLine', {
+    title: "Representing Multiplication and Division of Fractions with Arrays and Number Lines"
+  })
+})
+
+router.get('/meaningsMultDiv', function(req, res, next) {
+  res.render('meaningsMultDiv', {
+    title: "Meanings in Multiplication and Division"
+  })
+})
+
+
 router.get('/paintingNhlArenas', function(req, res, next) {
   res.render('paintingNhlArenas', {
     title: "Painting NHL Arenas"
