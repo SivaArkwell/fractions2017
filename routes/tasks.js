@@ -1135,6 +1135,11 @@ router.get('/paintingNhlArenas', function(req, res, next) {
   })
 })
 
+router.get('/unitFrac', function(req, res, next) {
+  res.render('unitFrac', {
+    title: "Unit Fractions"
+  })
+})
 
 https://docs.google.com/spreadsheets/d/1H8x5J7kBzsdmtFxRWfzTA0NqWTAfXV0d03pUdTcUAMU/edit?usp=drivesdk
 module.exports = router;
